@@ -2,7 +2,7 @@
 ### An intelligent approach to improving the performance of Threat detection in IOT
 
 ## Download  Full Project & Report from Drive : 
-  [Drive Link](https://drive.google.com/file/d/1JL_SB7ZA1FG9mH_b_VMA6hgqIiiG2FaW/view?usp=sharing)
+[Drive Link](https://drive.google.com/file/d/1JL_SB7ZA1FG9mH_b_VMA6hgqIiiG2FaW/view?usp=sharing)
 
 ## Introduction
 This project aims to enhance the performance of threat detection in Internet of Things (IoT) environments using intelligent approaches. With the rapid growth of IoT devices, ensuring robust security measures has become imperative. My solution leverages advanced machine learning techniques and data analysis to detect and mitigate threats efficiently.
@@ -13,7 +13,7 @@ This project aims to enhance the performance of threat detection in Internet of 
 - **Customizable Alerts:** Provides customizable alerting mechanisms for different types of threats.
 - **Visualization:** Offers comprehensive dashboards to visualize threat detection metrics and device status.
 
-## Component Diagram
+## System Design
 <table>
   <tr>
     <th>Component 1-n Diagram</th>
@@ -22,20 +22,20 @@ This project aims to enhance the performance of threat detection in Internet of 
     <td align="center"><img width="397" alt="image" src="https://github.com/user-attachments/assets/766100bd-8491-44d7-8314-8cc2cb683987"></td>
   </tr>
    <tr>
-    <th>Data Flow Diagram</th>
+    <th>Chosen System Design</th>
   </tr>
   <tr>
-    <td align="center"><img width="377" alt="image" src="https://github.com/user-attachments/assets/e0669f7e-c903-4baf-a1d9-c444ba54b49a"></td>
+    <td align="center"><img width="363" alt="image" src="https://github.com/user-attachments/assets/8d90513a-3edd-47d7-865a-4f86e20ff3dd"></td>
   </tr>
 </table>
 
 ## Technologies Used
-- **Programming Languages:** Python
-- **Machine Learning Frameworks:** TensorFlow, Scikit-learn
-- **Data Analysis:** Pandas, NumPy
-- **Visualization:** Grafana, Matplotlib
-- **Networking:** MQTT, HTTP, CoAP
-- **Database:** MongoDB, SQLite
+- **Programming Languages:** `Python`
+- **Machine Learning Frameworks:** `TensorFlow`, `Scikit-learn`
+- **Data Analysis:** Pandas, `NumPy`
+- **Visualization:** `Grafana`, `Matplotlib`
+- **Networking:** `MQTT`, `HTTP`, `CoAP` etc
+- **Database:** `MongoDB`, `SQLite`
 
 ## Installation
 #### Use Anaconda Navigator as base root
@@ -45,6 +45,7 @@ To install and run this project, follow these steps:
    git clone https://github.com/ns7523/Threat-Detection-in-IoT.git
    cd Threat-Detection-in-IoT
    ```
+   
 2. **Run the project:**
    ```bash
    python app.py
@@ -62,9 +63,9 @@ To install and run this project, follow these steps:
 ## Results 
 - Attack : `1`
 - No Attack : `0`
-- Accuracy: 90%
-- Precision: 90%
-- Recall: 90%
+- Accuracy: `90%`
+- Precision: `90%`
+- Recall: `90%`
   
 ---
 
@@ -89,7 +90,6 @@ To install and run this project, follow these steps:
    </table>
 
 ## Contact
-For any inquiries or feedback, please contact me at [nsakash752003@gmail.com].
-
+For any inquiries or feedback, please contact me at nsakash752003@gmail.com
 
 I hope this project helps in securing IoT environments more effectively. Happy coding!
