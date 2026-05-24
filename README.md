@@ -1,118 +1,270 @@
 <div align="center">
 
+<img src="assets/brand/hero.svg" alt="Threat Detection in IoT" width="100%" />
 
+<br />
 
-# Threat-Detection-in-IoT
+<p>
+  <strong>Analyze IoT telemetry.</strong> <strong>Run dataset-specific models.</strong> <strong>Classify threat state.</strong>
+</p>
 
-**An intelligent approach to improving the performance of Threat detection in IOT**
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Status](https://img.shields.io/badge/Status-Research-brightgreen?style=flat-square)](#)
-
-*Download Full Project & Report from [Google Drive](https://drive.google.com/file/d/1JL_SB7ZA1FG9mH_b_VMA6hgqIiiG2FaW/view?usp=sharing)*
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+  <img src="https://img.shields.io/badge/IoT_Security-2DD4BF?style=for-the-badge&logo=icloud&logoColor=white" alt="IoT Security" />
+</p>
 
 </div>
 
 ---
 
-## 🎯 Introduction
-
-This project aims to enhance the performance of threat detection in Internet of Things (IoT) environments using intelligent approaches. With the rapid growth of IoT devices, ensuring robust security measures has become imperative. My solution leverages advanced machine learning techniques and data analysis to detect and mitigate threats efficiently.
-
-## 🚀 Features
-
-- **Anomaly Detection:** Implements anomaly detection techniques to recognize unusual patterns that may indicate security breaches.
-- **Scalability:** Designed to handle a large number of IoT devices with minimal performance degradation.
-- **Customizable Alerts:** Provides customizable alerting mechanisms for different types of threats.
-- **Visualization:** Offers comprehensive dashboards to visualize threat detection metrics and device status.
-
-## 💻 Technologies Used
-
-| Category | Technologies |
-| :--- | :--- |
-| **Programming Languages** | `Python` |
-| **Machine Learning** | `TensorFlow`, `Scikit-learn` |
-| **Data Analysis** | `Pandas`, `NumPy` |
-| **Visualization** | `Grafana`, `Matplotlib` |
-| **Networking** | `MQTT`, `HTTP`, `CoAP`, etc |
-| **Database** | `MongoDB`, `SQLite` |
-
-## 📐 System Design
+<div align="center">
 
 <table>
-  <tr>
-    <th align="center">Component 1-n Diagram</th>
-    <th align="center">Chosen System Design</th>
-  </tr>
-  <tr>
-    <td align="center"><img width="400" alt="Component Diagram" src="https://github.com/user-attachments/assets/766100bd-8491-44d7-8314-8cc2cb683987"></td>
-    <td align="center"><img width="400" alt="System Design" src="https://github.com/user-attachments/assets/8d90513a-3edd-47d7-865a-4f86e20ff3dd"></td>
-  </tr>
+<tr>
+<td align="center" width="25%"><strong>Domain</strong><br />IoT Security</td>
+<td align="center" width="25%"><strong>Models</strong><br />CIC-IDS 2017 / 2018</td>
+<td align="center" width="25%"><strong>Output</strong><br />DDoS / Normal</td>
+<td align="center" width="25%"><strong>Interface</strong><br />Flask Web App</td>
+</tr>
 </table>
 
-## ⚙️ Installation
+</div>
 
-> [!NOTE]  
-> Use **Anaconda Navigator** as base root
-
-To install and run this project, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ns7523/Threat-Detection-in-IoT.git
-   cd Threat-Detection-in-IoT
-   ```
-   
-2. **Run the project:**
-   ```bash
-   python app.py
-   ```
-
-## 🛠️ Usage
-
-1. **Data Collection:**
-   - Predetermined and Trained Datasets.
-   - Tested and trained on 4-8 Lakhs of possibilities/datasets.
-   - The application will analyze the data and predict the attack possibilities.
-
-2. **Homepage:**
-   - Access at `LocalHost` to predict threat detection and attack status.
-
-## 📈 Results 
-
-- **Attack:** `1`
-- **No Attack:** `0`
-- **Accuracy:** `90%`
-- **Precision:** `90%`
-- **Recall:** `90%`
-  
 ---
 
-## 📸 Project Screenshots
+## 01 · Overview
 
 <table>
-  <tr>
-    <th align="center">Homepage</th>
-    <th align="center">Sign Up</th>
-  </tr>
-  <tr>
-    <td align="center"><img width="400" alt="Homepage" src="https://github.com/user-attachments/assets/8df55985-b390-4f56-a23f-460733d6f678"></td>
-    <td align="center"><img width="400" alt="Sign Up" src="https://github.com/user-attachments/assets/f90ebb5e-ad77-4abc-9fed-04663f960256"></td>
-  </tr>
-  <tr>
-    <th align="center">Prediction</th>
-    <th align="center">Results</th>
-  </tr>
-  <tr>
-    <td align="center"><img width="400" alt="Prediction" src="https://github.com/user-attachments/assets/8021707d-c790-4686-b7bb-5d347fa563ce"></td>
-    <td align="center"><img width="400" alt="Results" src="https://github.com/user-attachments/assets/b05e5097-00b0-4fa0-a6ea-c8b6090b6fbd"></td>
-  </tr>
+<tr>
+<td width="58%" valign="top">
+
+### Intelligent threat detection for IoT-style traffic
+
+This repository implements an IoT threat detection prototype with Flask-based inference and machine learning model artifacts for CIC-IDS 2017 and CIC-IDS 2018 workflows.
+
+The system accepts traffic feature values, routes them through the selected trained model, and returns a clear binary security decision: **DDoS detected** or **normal traffic**.
+
+</td>
+<td width="42%" valign="top">
+
+```text
+┌──────────────────────────────┐
+│  IOT THREAT CONSOLE          │
+├──────────────────────────────┤
+│  Input      Traffic Features │
+│  Dataset    CIC-IDS 17 / 18  │
+│  Model      Serialized ML    │
+│  Output     DDoS / Normal    │
+│  UI         Flask Interface  │
+└──────────────────────────────┘
+```
+
+</td>
+</tr>
 </table>
 
-## 📬 Contact
+---
 
-For any inquiries or feedback, please contact me at **nsakash752003@gmail.com**
+## 02 · Threat Pipeline
 
-*I hope this project helps in securing IoT environments more effectively. Happy coding!*
+<img src="assets/brand/pipeline.svg" alt="IoT threat detection pipeline" width="100%" />
+
+---
+
+## 03 · System Architecture
+
+```mermaid
+flowchart TD
+    A[Traffic Feature Input] --> B[Flask Web Interface]
+    B --> C{Dataset Route}
+    C --> D[CIC-IDS 2017 Model]
+    C --> E[CIC-IDS 2018 Model]
+    D --> F[Binary Prediction]
+    E --> F
+    F --> G[DDoS Detected]
+    F --> H[Normal Traffic]
+    B --> I[SQLite Auth Layer]
+    B --> J[Notebook Research Views]
+```
+
+---
+
+## 04 · Key Features
+
+| Feature | Purpose |
+|---|---|
+| Dataset-specific inference | Supports separate model paths for CIC-IDS 2017 and CIC-IDS 2018. |
+| Flask prediction interface | Provides a browser-based workflow for feature input and model output. |
+| Binary threat decision | Classifies traffic state as DDoS or Normal. |
+| Notebook access routes | Exposes CIC-IDS research artifacts through application pages. |
+| Authentication flow | Includes SQLite-backed signup/signin workflow for demo access. |
+| Research-oriented model flow | Connects dataset analysis, model artifacts, and web inference. |
+
+---
+
+## 05 · ML Workflow
+
+```mermaid
+flowchart LR
+    A[CIC-IDS Dataset] --> B[Preprocessing]
+    B --> C[Feature Engineering]
+    C --> D[Model Training]
+    D --> E[Model Export]
+    E --> F[Flask Inference]
+    F --> G[Threat State]
+```
+
+| Stage | Output |
+|---|---|
+| Dataset preparation | CIC-IDS 2017 / 2018 traffic records. |
+| Feature engineering | Model-ready numerical feature vectors. |
+| Training | Binary classifier for DDoS-vs-normal prediction. |
+| Evaluation | Accuracy, precision, recall, F1-score, confusion matrix. |
+| Inference | Web-accessible prediction runtime. |
+
+---
+
+## 06 · Installation
+
+```bash
+git clone https://github.com/ns7523/Threat-Detection-in-IoT.git
+cd Threat-Detection-in-IoT
+python -m venv .venv
+source .venv/bin/activate
+pip install flask pandas numpy scikit-learn joblib matplotlib seaborn
+```
+
+---
+
+## 07 · Usage
+
+Run the Flask application:
+
+```bash
+python app.py
+```
+
+Open the local interface:
+
+```text
+http://127.0.0.1:5000
+```
+
+Prediction routes:
+
+```text
+/predict   CIC-IDS 2017 model inference
+/predict1  CIC-IDS 2018 model inference
+```
+
+---
+
+## 08 · Project Structure
+
+```text
+.
+├── assets/
+│   └── brand/
+│       ├── hero.svg
+│       └── pipeline.svg
+├── app.py
+├── model_2017.sav
+├── model_2018.sav
+├── signup.db
+├── templates/
+├── static/
+└── README.md
+```
+
+Suggested production structure:
+
+```text
+docs/ · src/ · models/ · data/ · results/ · notebooks/ · assets/screenshots/ · requirements.txt
+```
+
+---
+
+## 09 · Visual Assets
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Prediction Interface
+
+`assets/screenshots/prediction-form.png`
+
+Feature input UI for model inference.
+
+</td>
+<td width="50%" valign="top">
+
+### Threat Result
+
+`assets/screenshots/threat-result.png`
+
+DDoS or normal output state.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Model Metrics
+
+`assets/screenshots/model-metrics.png`
+
+Accuracy, precision, recall, F1-score, and confusion matrix.
+
+</td>
+<td width="50%" valign="top">
+
+### Research View
+
+`assets/screenshots/research-notebook.png`
+
+Rendered CIC-IDS notebook artifact.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 10 · Security Notes
+
+- Move credentials and mail configuration into environment variables.
+- Hash stored passwords before production-style deployment.
+- Validate and bound-check all feature inputs before inference.
+- Add pinned dependencies through `requirements.txt`.
+
+---
+
+## 11 · Future Improvements
+
+- [ ] Add reproducible training notebooks for CIC-IDS 2017 and 2018.
+- [ ] Add pinned `requirements.txt`.
+- [ ] Move application and ML logic into `src/`.
+- [ ] Add model metrics under `results/`.
+- [ ] Add Docker support for isolated runtime.
+- [ ] Add polished screenshots under `assets/screenshots/`.
+- [ ] Add a formal open-source license.
+
+---
+
+<div align="center">
+
+### N S Akash
+
+**AI & Cybersecurity Engineer**
+
+<p>
+  <a href="https://github.com/ns7523"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://nsakash.in"><img src="https://img.shields.io/badge/Portfolio-0A84FF?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:contact@nsakash.in"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/nsakash7523"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
+
+</div>
