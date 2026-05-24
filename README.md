@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.icons8.com/color/96/000000/iot-sensor.png" alt="IoT Icon" width="80" />
+
 
 # Threat-Detection-in-IoT
 
