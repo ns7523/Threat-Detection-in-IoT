@@ -1,105 +1,109 @@
 <div align="center">
-  <br />
-  <img src="https://via.placeholder.com/120x120/0a0a0a/ffffff?text=Threat+Det" alt="Threat Detection Icon" />
-  <br />
 
-  <h1 align="center">Threat Detection in IoT</h1>
+<img src="https://img.icons8.com/color/96/000000/iot-sensor.png" alt="IoT Icon" width="80" />
 
-  <p align="center">
-    <strong>Intelligent Machine Learning Architecture for Enhancing IoT Security Posture.</strong>
-  </p>
+# Threat-Detection-in-IoT
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Accuracy-90%25-success?style=flat-square" alt="Accuracy">
-    <img src="https://img.shields.io/badge/Framework-TensorFlow-orange?style=flat-square&logo=tensorflow" alt="TensorFlow">
-    <img src="https://img.shields.io/badge/Python-3.8+-black?style=flat-square&logo=python" alt="Python">
-  </p>
+**An intelligent approach to improving the performance of Threat detection in IOT**
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Status](https://img.shields.io/badge/Status-Research-brightgreen?style=flat-square)](#)
+
+*Download Full Project & Report from [Google Drive](https://drive.google.com/file/d/1JL_SB7ZA1FG9mH_b_VMA6hgqIiiG2FaW/view?usp=sharing)*
+
 </div>
 
-<br />
+---
 
-## Overview
+## 🎯 Introduction
 
-This project provides an advanced, scalable threat detection engine tailored for Internet of Things (IoT) ecosystems. Utilizing comprehensive machine learning pipelines, the system analyzes high-throughput IoT telemetry to identify anomalous patterns indicative of security breaches, providing robust defense mechanisms for edge networks.
+This project aims to enhance the performance of threat detection in Internet of Things (IoT) environments using intelligent approaches. With the rapid growth of IoT devices, ensuring robust security measures has become imperative. My solution leverages advanced machine learning techniques and data analysis to detect and mitigate threats efficiently.
 
-[View Full Research Report & Artifacts](https://drive.google.com/file/d/1JL_SB7ZA1FG9mH_b_VMA6hgqIiiG2FaW/view?usp=sharing)
+## 🚀 Features
 
-### Engineering & Security Significance
-As IoT device deployments scale exponentially, traditional signature-based detection becomes computationally unviable. This architecture shifts the paradigm toward intelligent anomaly detection, utilizing a model trained on over 800,000 traffic variations to achieve 90% precision and recall metrics.
+- **Anomaly Detection:** Implements anomaly detection techniques to recognize unusual patterns that may indicate security breaches.
+- **Scalability:** Designed to handle a large number of IoT devices with minimal performance degradation.
+- **Customizable Alerts:** Provides customizable alerting mechanisms for different types of threats.
+- **Visualization:** Offers comprehensive dashboards to visualize threat detection metrics and device status.
 
-<br />
+## 💻 Technologies Used
 
-## System Architecture
+| Category | Technologies |
+| :--- | :--- |
+| **Programming Languages** | `Python` |
+| **Machine Learning** | `TensorFlow`, `Scikit-learn` |
+| **Data Analysis** | `Pandas`, `NumPy` |
+| **Visualization** | `Grafana`, `Matplotlib` |
+| **Networking** | `MQTT`, `HTTP`, `CoAP`, etc |
+| **Database** | `MongoDB`, `SQLite` |
+
+## 📐 System Design
 
 <table>
   <tr>
-    <th align="center">Chosen System Design Topology</th>
+    <th align="center">Component 1-n Diagram</th>
+    <th align="center">Chosen System Design</th>
   </tr>
   <tr>
-    <td align="center"><img width="600" alt="Architecture" src="https://github.com/user-attachments/assets/8d90513a-3edd-47d7-865a-4f86e20ff3dd"></td>
+    <td align="center"><img width="400" alt="Component Diagram" src="https://github.com/user-attachments/assets/766100bd-8491-44d7-8314-8cc2cb683987"></td>
+    <td align="center"><img width="400" alt="System Design" src="https://github.com/user-attachments/assets/8d90513a-3edd-47d7-865a-4f86e20ff3dd"></td>
   </tr>
 </table>
 
-<br />
+## ⚙️ Installation
 
-## Core Features
+> [!NOTE]  
+> Use **Anaconda Navigator** as base root
 
-- **Algorithmic Anomaly Detection**: Capable of isolating zero-day attack vectors through deviation mapping.
-- **Enterprise Scalability**: Designed to ingest parallel telemetry streams via MQTT/HTTP without performance degradation.
-- **Interactive SOC Dashboard**: Comprehensive web-based visualization for immediate threat triage and device status tracking.
-- **Customizable Alerting Logic**: Threshold-based alerting for varied severity levels.
+To install and run this project, follow these steps:
 
-<br />
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ns7523/Threat-Detection-in-IoT.git
+   cd Threat-Detection-in-IoT
+   ```
+   
+2. **Run the project:**
+   ```bash
+   python app.py
+   ```
 
-## Tech Stack
+## 🛠️ Usage
 
-| Layer | Technologies |
-| --- | --- |
-| **ML Inference Engine** | Python, TensorFlow, Scikit-learn |
-| **Data Processing** | Pandas, NumPy |
-| **Network Protocols** | MQTT, HTTP, CoAP |
-| **Persistence** | MongoDB, SQLite |
-| **Visualization & UI** | Grafana, Matplotlib, Custom Web Dashboard |
+1. **Data Collection:**
+   - Predetermined and Trained Datasets.
+   - Tested and trained on 4-8 Lakhs of possibilities/datasets.
+   - The application will analyze the data and predict the attack possibilities.
 
-<br />
+2. **Homepage:**
+   - Access at `LocalHost` to predict threat detection and attack status.
 
-## Quick Start
+## 📈 Results 
 
-### Prerequisites
-It is highly recommended to use **Anaconda Navigator** as the base environment to prevent dependency conflicts.
+- **Attack:** `1`
+- **No Attack:** `0`
+- **Accuracy:** `90%`
+- **Precision:** `90%`
+- **Recall:** `90%`
+  
+---
 
-### Deployment
-
-```bash
-# Clone the repository
-git clone https://github.com/ns7523/Threat-Detection-in-IoT.git
-cd Threat-Detection-in-IoT
-
-# Initialize the application server
-python app.py
-```
-Access the local Security Operations Center (SOC) dashboard via `localhost`.
-
-<br />
-
-## Performance Metrics
-
-Extensive validation against massive simulated traffic datasets yields the following inference metrics:
-
-- **Global Accuracy**: `90.0%`
-- **Precision**: `90.0%`
-- **Recall**: `90.0%`
-
-*Binary Output Configuration: `1` (Attack Detected), `0` (Benign Traffic).*
-
-<br />
-
-## Visual Interface
+## 📸 Project Screenshots
 
 <table>
   <tr>
-    <th align="center">Threat Analytics Engine</th>
-    <th align="center">Prediction Results Matrix</th>
+    <th align="center">Homepage</th>
+    <th align="center">Sign Up</th>
+  </tr>
+  <tr>
+    <td align="center"><img width="400" alt="Homepage" src="https://github.com/user-attachments/assets/8df55985-b390-4f56-a23f-460733d6f678"></td>
+    <td align="center"><img width="400" alt="Sign Up" src="https://github.com/user-attachments/assets/f90ebb5e-ad77-4abc-9fed-04663f960256"></td>
+  </tr>
+  <tr>
+    <th align="center">Prediction</th>
+    <th align="center">Results</th>
   </tr>
   <tr>
     <td align="center"><img width="400" alt="Prediction" src="https://github.com/user-attachments/assets/8021707d-c790-4686-b7bb-5d347fa563ce"></td>
@@ -107,11 +111,8 @@ Extensive validation against massive simulated traffic datasets yields the follo
   </tr>
 </table>
 
-<br />
+## 📬 Contact
 
-<div align="center">
-  <br />
-  <sub>Security Architecture by <a href="https://github.com/ns7523">N S AKASH</a></sub>
-  <br />
-  <sub>Contact: nsakash752003@gmail.com</sub>
-</div>
+For any inquiries or feedback, please contact me at **nsakash752003@gmail.com**
+
+*I hope this project helps in securing IoT environments more effectively. Happy coding!*
